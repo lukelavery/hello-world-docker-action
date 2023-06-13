@@ -8,4 +8,4 @@ WORKDIR /app
 COPY script.py .
 
 # Run the Python script when the container starts up
-CMD ["python", "script.py"]
+ENTRYPOINT ["python", "script.py"]
