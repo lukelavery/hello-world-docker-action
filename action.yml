@@ -2,10 +2,12 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  issue-title:
+    description: 'The title of the issue.'
     required: true
-    default: 'World'
+  issue-body:
+    description: "The body of the issue."
+    required: true
 outputs:
   time: # id of output
     description: 'The time we greeted you'
